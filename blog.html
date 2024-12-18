@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crafting Blog - Online Crafting Instruction Hub</title>
+    <title>Online Crafting Instruction Hub</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,39 +42,59 @@
             border-radius: 5px;
         }
 
-        .blog-section {
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e9ecef;
+        }
+
+        .hero h2 {
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: #495057;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             padding: 20px;
         }
 
-        .blog-section h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .blog-post {
+        .card {
             background-color: #fff;
-            margin: 15px auto;
+            margin: 15px;
             padding: 20px;
             border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
+            width: 300px;
+            text-align: center;
         }
 
-        .blog-post h3 {
-            margin: 0 0 10px 0;
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
         }
 
-        .blog-post p {
-            margin: 10px 0;
+        .card h3 {
+            margin-bottom: 15px;
         }
 
-        .blog-post a {
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
             color: #007bff;
             text-decoration: none;
         }
 
-        .blog-post a:hover {
+        .card a:hover {
             text-decoration: underline;
         }
 
@@ -93,35 +113,57 @@
     </header>
 
     <nav>
-        <a href="file:///H:/project/index3.html">Home</a>
-            <a href="file:///H:/project/about.html">About</a>
-            <a href="file:///H:/project/tutorials%20page.html">Tutorials</a>
-            <a href="file:///H:/project/resource%20page.html">Resources</a>
-            <a href="file:///H:/project/events%20and%20workshop%20page.html">Events & Workshops</a>
-            <a href="file:///H:/project/contact.html">Contact</a>
-            <a href="file:///H:/project/community%20page.html">Community</a>
-            <a href="file:///H:/project/blog.html">Blog</a>
+        <a href="index3.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="tutorials.html">Tutorials</a>
+        <a href="resources.html">Resources</a>
+        <a href="events.html">Events & Workshops</a>
+        <a href="contact.html">Contact</a>
+        <a href="community.html">Community</a>
+        <a href="blog.html">Blog</a>
     </nav>
 
-    <div class="blog-section">
-        <h2>Crafting Blog</h2>
+    <div class="hero">
+        <h2>Welcome to the Online Crafting Instruction Hub</h2>
+        <p>Your go-to place for learning creative crafting techniques and skills.</p>
+    </div>
 
-        <div class="blog-post">
-            <h3>5 Creative DIY Projects for Beginners</h3>
-            <p>Explore simple yet amazing crafting projects you can start today.</p>
-            <a href="#">Read More</a>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Beginner+Tutorials" alt="Beginner Tutorials">
+            <h3>Beginner Tutorials</h3>
+            <p>Step-by-step guides for crafting beginners.</p>
+            <a href="#">Learn More</a>
         </div>
-
-        <div class="blog-post">
-            <h3>Top 10 Crafting Tools Every Crafter Needs</h3>
-            <p>Discover essential tools to make your crafting experience seamless.</p>
-            <a href="#">Read More</a>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Advanced+Projects" alt="Advanced Projects">
+            <h3>Advanced Projects</h3>
+            <p>Challenge yourself with advanced crafting ideas.</p>
+            <a href="#">Explore Projects</a>
         </div>
-
-        <div class="blog-post">
-            <h3>How to Make Stunning Handmade Cards</h3>
-            <p>Step-by-step guide to creating beautiful cards for any occasion.</p>
-            <a href="#">Read More</a>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Crafting+Blog" alt="Crafting Blog">
+            <h3>Crafting Blog</h3>
+            <p>Read articles and tips from crafting experts.</p>
+            <a href="blog.html">Visit Blog</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Resources" alt="Resources">
+            <h3>Resources</h3>
+            <p>Find useful tools and materials for your crafts.</p>
+            <a href="#">View Resources</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Community" alt="Community">
+            <h3>Community</h3>
+            <p>Connect with fellow crafters and share ideas.</p>
+            <a href="#">Join Community</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Events+and+Workshops" alt="Events and Workshops">
+            <h3>Events & Workshops</h3>
+            <p>Participate in crafting events and workshops near you.</p>
+            <a href="#">Discover Events</a>
         </div>
     </div>
 
